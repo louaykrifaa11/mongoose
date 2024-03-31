@@ -6,7 +6,7 @@ app.use(express.json())
 
 const port=8081
 
-mongoose.connect("mongodb+srv://ladharimalek10:1234@cluster0.6eeywmw.mongodb.net/myfirstapp?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://louaykrifaaa11:1234@cluster0.6eeywmw.mongodb.net/myfirstapp?retryWrites=true&w=majority&appName=Cluster0")
 .then(()=>console.log("db connected"))
 .catch((err)=>console.log(err))
 app.use("/",require("./routes/userRoute"))
